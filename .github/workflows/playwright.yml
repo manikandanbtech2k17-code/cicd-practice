@@ -10,7 +10,7 @@ on:
   # pull_request:
   #  branches: [main, master]
   schedule:
-    - cron: '53 8 21 07 *'
+    - cron: '58 8 21 07 *'
 jobs:
   test:
     timeout-minutes: 60
